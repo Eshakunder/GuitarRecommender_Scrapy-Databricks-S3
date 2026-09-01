@@ -1,0 +1,65 @@
+:root {
+  /* Color: aged instrument palette - walnut body, brass hardware, parchment inlay */
+  --color-bg: #1c130e;
+  --color-bg-raised: #271b14;
+  --color-bg-card: #2f2118;
+  --color-brass: #c89b3c;
+  --color-brass-bright: #e6bd5c;
+  --color-parchment: #f3e9d4;
+  --color-parchment-dim: #cabfa9;
+  --color-mahogany: #8a3a3f;
+  --color-sage: #8a9a72;
+  --color-line: rgba(243, 233, 212, 0.14);
+  --color-line-bright: rgba(200, 155, 60, 0.5);
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg);
+  background-image: radial-gradient(
+      ellipse at 20% -10%,
+      rgba(200, 155, 60, 0.08),
+      transparent 55%
+    ),
+    radial-gradient(ellipse at 90% 10%, rgba(138, 58, 63, 0.08), transparent 50%);
+  color: var(--color-parchment);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brass-bright);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

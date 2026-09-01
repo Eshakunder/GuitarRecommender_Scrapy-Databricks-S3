@@ -1,0 +1,58 @@
+# ==========================================
+# Environment & Secret Files (CRITICAL)
+# ==========================================
+*.env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+aws_credentials
+secrets.json
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ==========================================
+# Scrapy & Web Scraping
+# ==========================================
+.scrapy/
+crawls/
+httpcache/
+*.log
+*.jsonlines
+*.jl
+
+# ==========================================
+# Databricks, PySpark & Jupyter
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.databricks/
+dbfs/
+metastore_db/
+derby.log
+*.spark/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
