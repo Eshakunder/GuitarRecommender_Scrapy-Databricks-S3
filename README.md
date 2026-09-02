@@ -6,8 +6,6 @@ The system leverages **Bayesian Average Rating** scoring to handle rating confid
 
 ---
 
----
-
 ## Architecture Overview
 ```
 +------------------+      +--------------------+      +-------------------------------------------+
