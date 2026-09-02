@@ -25,7 +25,7 @@ The system leverages **Bayesian Average Rating** scoring to handle rating confid
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Automated Web Extraction:** Custom Scrapy spiders crawling web-scale guitar specifications, pricing, review counts, brand metadata, and product attributes.
 * **AWS S3 Landing Area:** Cloud staging zone storing raw, unstructured crawl outputs.
