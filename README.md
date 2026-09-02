@@ -1,8 +1,10 @@
 # End-to-End Guitar Recommender System
 
-An end-to-end Data Engineering, Machine Learning, and Web Application platform that crawls web-scale guitar product data, ingests it into an **AWS S3 Lakehouse**, processes it using **Databricks PySpark** and **MLflow** via a **Medallion Data Architecture**, and serves interactive recommendations through a modern **Node.js/React frontend**. 
+An end-to-end Data Engineering, Machine Learning, and Web Application platform that **extracts web-scale guitar product data using Scrapy**, ingests it into an **AWS S3 Lakehouse**, processes it using **Databricks PySpark** and **MLflow** via a **Medallion Data Architecture**, and serves interactive recommendations through a modern **React frontend** powered by a **Node.js REST API**.
 
-The system leverages **Bayesian Average Rating** scoring to handle rating confidence and variance across sparse product reviews, combined with **$k$-Means clustering** and **PCA** for feature vector segmentation.
+The system leverages **Bayesian Average Rating** scoring to handle rating confidence across sparse product reviews, combined with **$k$-Means clustering** and **PCA** for feature vector segmentation.
+
+---
 
 ---
 
