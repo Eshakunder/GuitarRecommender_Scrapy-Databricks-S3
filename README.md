@@ -66,4 +66,18 @@ Where:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
+```text
+.
+├── backend/               # Server-side API & backend application logic
+├── frontend/              # Web user interface (Node.js/React)
+├── guitar_project/        # Scrapy spiders & data extraction pipeline
+├── .gitignore             # Ignored tracking files (secrets, caches, dependencies)
+├── raw_guitars1.json      # Sample raw scraped JSON dataset output
+├── requirements.txt       # Global Python package dependencies
+├── run_pipeline.py        # Entry point script to trigger the scraper/pipeline
+├── scrapy.cfg             # Scrapy deployment and project configuration file
+└── test.jsonl             # Scraped test output file (JSON Lines format)
+```
+
